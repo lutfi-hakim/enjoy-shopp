@@ -1,0 +1,179 @@
+{
+    "mostSearch":{
+        "elektronik":{
+            "name":"Keyboard",
+            "total":"2012"
+        },
+        "Handphone":{
+            "name":"Iphone",
+            "total":3219
+        },
+        "Laptop":{
+            "name":"Mackbook",
+            "total":1189
+        }
+    },
+    "mostPicked":[
+        {
+            "_id":"sdfw3rf3efw44as3423",
+            "name":"Lenovo",
+            "type": "Laptop",
+            "imageUrl": "/images/laptop-lenovo.jpg"
+        },
+        {
+            "_id":"skfw3rf3efw4ads432da3",
+            "name":"Iphone",
+            "type": "Handphone",
+            "imageUrl": "/images/hp-iphone.jpg"
+        },
+        {
+            "_id":"smfw3rf3efw44gfsd33",
+            "name":"Mouse Pad",
+            "type": "Asesoris",
+            "imageUrl": "/images/hp-samsung.jpg"
+        },
+        {
+            "_id":"sbfw3rf3efw44ew23s3",
+            "name":"Mouse",
+            "type": "Electronik",
+            "imageUrl": "/images/elektro-mouse.jpg"
+        },
+        {
+            "_id":"scfw3rf3efw443fd4a3",
+            "name":"Kursi",
+            "type": "Asesoris",
+            "imageUrl": "/images/laptop-mackbook.jpg"
+        },
+        {
+            "_id":"safw3rf3efwqs443423",
+            "name":"LED",
+            "type": "Asesoris",
+            "imageUrl": "/images/elektro-keyboard.jpg"
+        }
+    ],
+    "categories":[
+        {
+            "_id":"hhhh754gf6889754sd4",
+            "name":"Electronik",
+            "items":[
+                {
+                    "_id": "asd1293uasaddads1",
+                    "name": "Headset",
+                    "imageUrl": "/images/elektro-headset.jpg",
+                    "price": "800",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uaqesdads1",
+                    "name": "Keyboard",
+                    "imageUrl": "/images/elektro-keyboard.jpg",
+                    "price": "1100",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdxcads1",
+                    "name": "Mouse",
+                    "imageUrl": "/images/elektro-mouse.jpg",
+                    "price": "200",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd1293uasdadgs1",
+                    "name": "Speaker",
+                    "imageUrl": "/images/elektro-speaker.jpg",
+                    "price": "450",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd13uasdadsht1",
+                    "name": "TV LED",
+                    "imageUrl": "/images/elektro-tv.jpg",
+                    "price": "2000",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "_id":"hhhh754688975g44",
+            "name":"Handphone",
+            "items":[
+                {
+                    "_id": "asd12393uasdads1",
+                    "name": "Iphone",
+                    "imageUrl": "/images/hp-iphone.jpg",
+                    "price": "9000",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd12953uasdads1",
+                    "name": "Oppo",
+                    "imageUrl": "/images/hp-oppo.jpg",
+                    "price": "750",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd12931uasdads1",
+                    "name": "Redmi",
+                    "imageUrl": "/images/hp-redmi.jpg",
+                    "price": "200",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293u7asdads1",
+                    "name": "Samsung",
+                    "imageUrl": "/images/hp-samsung.jpg",
+                    "price": "450",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293ua9sdads1",
+                    "name": "Xiomi",
+                    "imageUrl": "/images/hp-xiomi.jpg",
+                    "price": "300",
+                    "isPopular": false
+                }
+            ]
+        },
+        {
+            "_id":"hhhh7546889754hg",
+            "name":"Laptop",
+            "items":[
+                {
+                    "_id": "asd1293juasdads1",
+                    "name": "Acer",
+                    "imageUrl": "/images/laptop-acer.jpg",
+                    "price": "2000",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uxasdads1",
+                    "name": "Asus",
+                    "imageUrl": "/images/laptop-asus.jpg",
+                    "price": "4500",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uaesdads1",
+                    "name": "Lenovo",
+                    "imageUrl": "/images/laptop-lenovo.jpg",
+                    "price": "5000",
+                    "isPopular": true
+                },
+                {
+                    "_id": "asd1293uasqdads1",
+                    "name": "Mackbook",
+                    "imageUrl": "/images/laptop-mackbook.jpg",
+                    "price": "10000",
+                    "isPopular": false
+                },
+                {
+                    "_id": "asd1293uasdxads1",
+                    "name": "MSI",
+                    "imageUrl": "/images/laptop-msi.jpg",
+                    "price": "8050",
+                    "isPopular": false
+                }
+            ]
+        }
+    ]
+}
