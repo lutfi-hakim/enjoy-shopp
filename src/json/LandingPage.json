@@ -15,40 +15,46 @@
     },
     "mostPicked":[
         {
-            "_id":"sdfw3rf3efw44as3423",
+            "_id":"sdfw3rf3efw44a23",
             "name":"Lenovo",
             "type": "Laptop",
-            "imageUrl": "/images/laptop-lenovo.jpg"
+            "imageUrl": "/images/laptop-lenovo.jpg",
+            "sold":"230"
         },
         {
-            "_id":"skfw3rf3efw4ads432da3",
+            "_id":"skfw3rfds432da3",
             "name":"Iphone",
             "type": "Handphone",
-            "imageUrl": "/images/hp-iphone.jpg"
+            "imageUrl": "/images/hp-iphone.jpg",
+            "sold":"930"
         },
         {
-            "_id":"smfw3rf3efw44gfsd33",
+            "_id":"srf3efw44gfsd33",
             "name":"Mouse Pad",
             "type": "Asesoris",
-            "imageUrl": "/images/hp-samsung.jpg"
+            "imageUrl": "/images/hp-samsung.jpg",
+            "sold":"130"
         },
         {
-            "_id":"sbfw3rf3efw44ew23s3",
+            "_id":"sbfw3r4ew23s3",
             "name":"Mouse",
             "type": "Electronik",
-            "imageUrl": "/images/elektro-mouse.jpg"
+            "imageUrl": "/images/elektro-mouse.jpg",
+            "sold":"200"
         },
         {
-            "_id":"scfw3rf3efw443fd4a3",
+            "_id":"scfw3rf3efw443",
             "name":"Kursi",
             "type": "Asesoris",
-            "imageUrl": "/images/laptop-mackbook.jpg"
+            "imageUrl": "/images/laptop-mackbook.jpg",
+            "sold":"30"
         },
         {
             "_id":"safw3rf3efwqs443423",
             "name":"LED",
             "type": "Asesoris",
-            "imageUrl": "/images/elektro-keyboard.jpg"
+            "imageUrl": "/images/elektro-keyboard.jpg",
+            "sold":"20"
         }
     ],
     "categories":[

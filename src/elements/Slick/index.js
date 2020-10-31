@@ -23,7 +23,7 @@ export default class Slick extends Component {
         };
 
         return (
-            <section className="container">
+            <section className="container bg-card">
                 <Slider {...slick}>
                     <img className="img-slider" src={gmbr1} alt="Credit to Joshua Earle on Unsplash" />
                     <img className="img-slider" src={gmbr2} alt="Credit to Alisa Anton on Unsplash" />

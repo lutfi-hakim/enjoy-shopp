@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -44,7 +46,7 @@
 @import "utilities";
 @import "print";
 
-body{
+body {
     background-color: $gray-100;
 }
 
@@ -96,7 +98,7 @@ header {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .img-slider {
@@ -117,7 +119,7 @@ section {
     width: 100%;
 }
 
-.bg-card{
+.bg-card {
     background-color: $white;
     padding: 12px;
 }
@@ -128,7 +130,7 @@ section {
     .tag {
         z-index: 3;
         font-size: 0.785rem;
-        background-color: $indigo;
+        background-color: $primary;
         padding: .25rem 1.25rem;
         position: absolute;
         top: 0;
@@ -218,5 +220,41 @@ section {
                 transform: scale(1);
             }
         }
+    }
+}
+
+footer {
+    border-top: 1px solid $gray-300;
+    padding-top: 70px;
+    background-color: $white;
+
+    .brand-tagline {
+        color: $gray-600;
+        margin-top: 8px;
+        font-weight: 300;
+    }
+
+    .list-group-item {
+        padding: .3125rem 0;
+        border: 0;
+
+        a,
+        span {
+            color: $gray-500;
+            font-weight: 300;
+        }
+
+        a {
+            @include hover-focus {
+                color: $gray-800;
+            }
+        }
+    }
+
+    .copyrights {
+        margin: 50px 0;
+        font-weight: 300;
+        font-size: .875rem;
+        color: $gray-500;
     }
 }

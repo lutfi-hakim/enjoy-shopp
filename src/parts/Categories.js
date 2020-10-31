@@ -29,7 +29,7 @@ export default function Categories({ data }) {
                                     <Button type="link" href={`/properties/${item._id}`} className="stretched-link d-block text-white">
                                         <h5 className="h4">{item.name}</h5>
                                     </Button>
-                                    <span className="text-gray-100">
+                                    <span className="text-gray-300">
                                         USD {item.price}
                                     </span>
                                 </div>
